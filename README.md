@@ -63,15 +63,15 @@ This repository contains a simple baseline. You are free to use it, change it, o
 
 **Data.** 598 toy examples covering a range of topics and lengths, split 80/20 into training and test sets. Most poor examples are a copy of a good example with one to three errors added, and both copies are always in the same split. It shows the format but is far too small to be useful as training data on its own.
 
-- `data/train.jsonl` has 478 examples. Each has an `id`, a `text`, a `score` between 0 and 1, a `label` (`good` or `poor`), an `error` field describing the mistakes in poor examples, and a `group` ID that a good example shares with its corrupted copy.
-- `data/test.jsonl` has 120 examples with only `id` and `text`, the same format as our hidden test set.
-- `data/test_labels.jsonl` has the `score` and `label` for each test `id`.
+- [`data/train.jsonl`](data/train.jsonl) has 478 examples. Each has an `id`, a `text`, a `score` between 0 and 1, a `label` (`good` or `poor`), an `error` field describing the mistakes in poor examples, and a `group` ID that a good example shares with its corrupted copy.
+- [`data/test.jsonl`](data/test.jsonl) has 120 examples with only `id` and `text`, the same format as our hidden test set.
+- [`data/test_labels.jsonl`](data/test_labels.jsonl) has the `score` and `label` for each test `id`.
 
 **Scripts.**
 
-- `train.py` runs each training text through [AI-Sweden-Models/ModernBERT-large](https://huggingface.co/AI-Sweden-Models/ModernBERT-large) and averages the token vectors into one vector per text. A support vector regressor learns to predict the score from these vectors and is saved as `svr.joblib`.
-- `predict.py` follows the required submission interface: it reads texts, embeds them the same way, and writes one score between 0 and 1 per text.
-- `evaluate.py` runs `predict.py` the same way we will run yours. It times the whole run, including model loading, checks the output format, and prints Spearman correlation, ROC-AUC and samples per minute as a Markdown table. Use `--repo path/to/your/repo` to evaluate a different `predict.py`.
+- [`train.py`](train.py) runs each training text through [AI-Sweden-Models/ModernBERT-large](https://huggingface.co/AI-Sweden-Models/ModernBERT-large) and averages the token vectors into one vector per text. A support vector regressor learns to predict the score from these vectors and is saved as `svr.joblib`.
+- [`predict.py`](predict.py) follows the required submission interface: it reads texts, embeds them the same way, and writes one score between 0 and 1 per text.
+- [`evaluate.py`](evaluate.py) runs `predict.py` the same way we will run yours. It times the whole run, including model loading, checks the output format, and prints Spearman correlation, ROC-AUC and samples per minute as a Markdown table. Use `--repo path/to/your/repo` to evaluate a different `predict.py`.
 
 To run them:
 
@@ -87,6 +87,4 @@ The first run downloads the model (about 1.6 GB). After that, each script runs o
 
 Results from `evaluate.py` on `data/test.jsonl`, run on a laptop CPU:
 
-| Spearman | ROC-AUC | Time (s) | Samples/min |
-|---|---|---|---|
-| 0.528 | 0.783 | 9.8 | 731 |
+<!-- paste the table printed by evaluate.py here -->

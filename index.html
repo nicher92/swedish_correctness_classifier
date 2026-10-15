@@ -113,6 +113,7 @@
     letter-spacing: -0.01em;
   }
   .lede { margin: 0; max-width: 36rem; color: var(--muted); }
+  .repo { margin: 1.25rem 0 0; font: 600 1rem/1.4 var(--sans); }
 
   /* Section list */
   .toc { font: 400 0.95rem/1.5 var(--sans); margin-bottom: 1rem; }
@@ -166,6 +167,7 @@
     </figure>
     <h1 id="title">Swedish Grammaticality Scoring</h1>
     <p class="lede">Build a model that reads Swedish text and returns a score from 0 to 1. Text with grammatical errors, like the missing n above, should score lower.</p>
+    <p class="repo" hidden><a id="repo-link">Browse the code on GitHub</a></p>
   </header>
 
   <nav class="toc" aria-label="Sections"><ul id="toc-list"></ul></nav>
@@ -175,6 +177,22 @@
 
 <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
 <script>
+  const REPO = "";  // set to "https://github.com/<user>/<repo>" if the site uses a custom domain
+
+  // On <user>.github.io/<repo>/ the repository is github.com/<user>/<repo>
+  const repoUrl = REPO || (() => {
+    if (!location.hostname.endsWith(".github.io")) return null;
+    const user = location.hostname.split(".")[0];
+    const first = location.pathname.split("/")[1];
+    return `https://github.com/${user}/${first && !first.includes(".") ? first : user + ".github.io"}`;
+  })();
+
+  if (repoUrl) {
+    const link = document.getElementById("repo-link");
+    link.href = repoUrl;
+    link.parentElement.hidden = false;
+  }
+
   const content = document.getElementById("content");
   const slug = (text) => text.toLowerCase().trim().replace(/[^\p{L}\p{N}]+/gu, "-").replace(/^-|-$/g, "");
 
@@ -196,6 +214,15 @@
         table.replaceWith(wrap);
         wrap.append(table);
       });
+
+      if (repoUrl) {  // relative links in the README open the file on GitHub
+        content.querySelectorAll("a[href]").forEach((a) => {
+          const href = a.getAttribute("href");
+          if (/^([a-z]+:|#|\/)/i.test(href)) return;
+          const path = href.replace(/^\.\//, "");
+          a.href = `${repoUrl}/${path.endsWith("/") ? "tree" : "blob"}/HEAD/${path}`;
+        });
+      }
 
       const toc = document.getElementById("toc-list");
       content.querySelectorAll("h2").forEach((h) => {
