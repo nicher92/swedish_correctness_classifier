@@ -15,6 +15,7 @@
     --muted: #5B6875;
     --rule: #CDD5DD;
     --pen: #C2262E;
+    --link: #1D5FAD;
     --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
     --sans: "Public Sans", "Helvetica Neue", Arial, sans-serif;
     --hand: "Caveat", "Comic Sans MS", cursive;
@@ -29,6 +30,7 @@
       --muted: #98A4B0;
       --rule: #2C3640;
       --pen: #FF6F69;
+      --link: #7DB0EC;
       color-scheme: dark;
     }
   }
@@ -42,8 +44,8 @@
     font: 400 1.125rem/1.7 var(--serif);
     -webkit-font-smoothing: antialiased;
   }
-  a { color: inherit; text-decoration-color: var(--muted); text-underline-offset: 0.18em; }
-  a:hover { text-decoration-color: var(--ink); }
+  a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+  a:hover { text-decoration-thickness: 2px; }
   :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }
 
   .page {
@@ -143,6 +145,7 @@
     margin: 1.25rem 0; padding: 1rem 1.15rem; overflow-x: auto;
     background: var(--surface); border-radius: 4px; line-height: 1.5;
   }
+  #content a code { color: inherit; }
   #content pre code { background: none; padding: 0; font-size: 0.85rem; }
   .table-wrap { overflow-x: auto; margin: 1.25rem 0; }
   #content table { border-collapse: collapse; width: 100%; font: 400 0.92rem/1.5 var(--sans); }

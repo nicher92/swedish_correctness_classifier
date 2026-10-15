@@ -87,4 +87,6 @@ The first run downloads the model (about 1.6 GB). After that, each script runs o
 
 Results from `evaluate.py` on `data/test.jsonl`, run on a laptop CPU:
 
-<!-- paste the table printed by evaluate.py here -->
+| Spearman | ROC-AUC | Time (s) | Samples/min |
+|---|---|---|---|
+| 0.528 | 0.783 | 10.1 | 714 |
