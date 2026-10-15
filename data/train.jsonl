@@ -1,0 +1,478 @@
+{"id": 2, "text": "De sålde deras hus förra året.", "score": 0.45, "label": "poor", "error": "wrong pronoun form ('sitt' -> 'deras')", "group": 434}
+{"id": 4, "text": "Vi måste vänta för bussen i tjugo minuter.", "score": 0.4, "label": "poor", "error": "wrong preposition (vänta på)", "group": 4}
+{"id": 5, "text": "Trots att vädret var dåligt kom nästan alla till festen, och vi dansade till långt efter midnatt.", "score": 0.95, "label": "good", "error": null, "group": 5}
+{"id": 6, "text": "Om symtomen inte går över inom en vecka bör du kontakta din vårdcentral.", "score": 0.95, "label": "good", "error": null, "group": 6}
+{"id": 8, "text": "Förra året reste vi till Japan.", "score": 0.95, "label": "good", "error": null, "group": 8}
+{"id": 9, "text": "Företaget har anställde tjugo nya medarbetarer i år.", "score": 0.2, "label": "poor", "error": "wrong verb form ('anställt' -> 'anställde'); wrong plural form ('medarbetare' -> 'medarbetarer')", "group": 141}
+{"id": 10, "text": "Efter jobbet gick jag till gymmet, men det var fullt.", "score": 0.95, "label": "good", "error": null, "group": 10}
+{"id": 11, "text": "Jag bor på Sverige.", "score": 0.4, "label": "poor", "error": "wrong preposition with country (i Sverige)", "group": 11}
+{"id": 12, "text": "Hon köpte en ny vinter jacka.", "score": 0.45, "label": "poor", "error": "compound written as two words ('vinterjacka' -> 'vinter jacka')", "group": 423}
+{"id": 13, "text": "Ett barn satt på bänken och grät.", "score": 0.95, "label": "good", "error": null, "group": 13}
+{"id": 16, "text": "Den svenska modell bygger på att arbetsmarknads parterna själv förhandlar fram lönerna och villkoren, utan att staten lägger sig i dem.", "score": 0.15, "label": "poor", "error": "missing definite (modellen); compound split; agreement (själva)", "group": 16}
+{"id": 17, "text": "Det här är den bästa boken jag har läst.", "score": 0.95, "label": "good", "error": null, "group": 17}
+{"id": 18, "text": "Efter en lång diskussion enades styrelsen om en ny budget.", "score": 0.95, "label": "good", "error": null, "group": 18}
+{"id": 19, "text": "Glöm inte tand borsten!", "score": 0.45, "label": "poor", "error": "compound written as two words ('tandborsten' -> 'tand borsten')", "group": 287}
+{"id": 22, "text": "Hon har två stora hundar som heter Bamse och Tussan.", "score": 0.95, "label": "good", "error": null, "group": 22}
+{"id": 23, "text": "Efter flera år av förhandlingar länderna enades till slut om en gemensam avtal för att minska utsläppen av växthusgaser, även om många miljöorganisationer tycker det går inte tillräckligt långt.", "score": 0.1, "label": "poor", "error": "V2 violation; gender (ett gemensamt avtal); negation placement in subordinate clause", "group": 23}
+{"id": 24, "text": "Jag har bott i Stockholm i snart tio år, men jag har inte fortfarande lärt mig hitta i tunnelbanan.", "score": 0.4, "label": "poor", "error": "adverb/negation placement ('har fortfarande inte' -> 'har inte fortfarande')", "group": 411}
+{"id": 25, "text": "Glöm inte att stänga fönstret innan du går.", "score": 1.0, "label": "good", "error": null, "group": 25}
+{"id": 26, "text": "Kan jag få ett glas vatten?", "score": 0.95, "label": "good", "error": null, "group": 26}
+{"id": 28, "text": "Efter maten gick vi ut och promenerade.", "score": 0.95, "label": "good", "error": null, "group": 28}
+{"id": 29, "text": "Regeringen presenterade i går ett förslag om sänkt skatt för pensionärer.", "score": 0.95, "label": "good", "error": null, "group": 29}
+{"id": 31, "text": "Regeringen presenterade igår en förslag om sänkt skatt för pensionärer.", "score": 0.45, "label": "poor", "error": "wrong gender (ett förslag)", "group": 31}
+{"id": 34, "text": "Vi badade i sjö varje morgon.", "score": 0.4, "label": "poor", "error": "wrong definite/indefinite form ('sjön' -> 'sjö')", "group": 378}
+{"id": 35, "text": "Skulle du kunna förklara hur det här programmet fungerar?", "score": 0.95, "label": "good", "error": null, "group": 35}
+{"id": 36, "text": "Han sa att han läser alltid tidningen på morgonen.", "score": 0.4, "label": "poor", "error": "adverb/negation placement ('alltid läser' -> 'läser alltid')", "group": 573}
+{"id": 38, "text": "Matchen avgjordes först på straffar, och hemma laget kunde till slut fira sin första titel på över trettio år.", "score": 0.45, "label": "poor", "error": "compound written as two words ('hemmalaget' -> 'hemma laget')", "group": 523}
+{"id": 39, "text": "Det finns tre katter i huset.", "score": 0.95, "label": "good", "error": null, "group": 39}
+{"id": 40, "text": "Hon vann ett guldmedalj i simning.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('en guldmedalj' -> 'ett guldmedalj')", "group": 420}
+{"id": 41, "text": "Projektgruppen träffas varje måndag för att gå igenom vad som har gjorts och vad som återstår innan lanseringen i december.", "score": 0.95, "label": "good", "error": null, "group": 41}
+{"id": 42, "text": "Hur du mår?", "score": 0.35, "label": "poor", "error": "word order ('Hur mår du' -> 'Hur du mår')", "group": 129}
+{"id": 43, "text": "Snöar ute nu.", "score": 0.35, "label": "poor", "error": "missing subject ('Det snöar' -> 'Snöar')", "group": 493}
+{"id": 45, "text": "Det är viktigt att man tvättar händerna ordentligt innan man lagar mat.", "score": 0.95, "label": "good", "error": null, "group": 45}
+{"id": 46, "text": "Jag har tappat nyckeln till förrådet.", "score": 0.95, "label": "good", "error": null, "group": 46}
+{"id": 47, "text": "Hon har fem barner.", "score": 0.4, "label": "poor", "error": "wrong plural form ('barn' -> 'barner')", "group": 369}
+{"id": 48, "text": "Forskarna har följt tusentals patienter under tio år för att förstå hur kost och motion påverkar risken för hjärtsjukdom.", "score": 0.95, "label": "good", "error": null, "group": 48}
+{"id": 49, "text": "Mig och min syster ska åka till Spanien i sommar.", "score": 0.4, "label": "poor", "error": "subject form needed (Jag och min syster)", "group": 49}
+{"id": 50, "text": "Jag har försökt att nå dig hela förmiddag men det går inte igenom.", "score": 0.3, "label": "poor", "error": "missing definite (hela förmiddagen); calque (går inte fram)", "group": 50}
+{"id": 51, "text": "Det är viktigt att sova ordentligt.", "score": 0.95, "label": "good", "error": null, "group": 51}
+{"id": 52, "text": "Den nya lag träder i kraft nästa året.", "score": 0.25, "label": "poor", "error": "wrong definite/indefinite form ('lagen' -> 'lag'); wrong definite/indefinite form ('år' -> 'året')", "group": 106}
+{"id": 53, "text": "Det finns många stor städer i Europa.", "score": 0.4, "label": "poor", "error": "adjective agreement in plural (stora)", "group": 53}
+{"id": 54, "text": "Har du sett min glasögon?", "score": 0.45, "label": "poor", "error": "plural possessive (mina)", "group": 54}
+{"id": 55, "text": "Enligt prognos det blir snö i hela Norrland under helg.", "score": 0.1, "label": "poor", "error": "missing definite forms; V2 violation", "group": 55}
+{"id": 56, "text": "Vi måste ändra lösenordet varje tre månader enligt nya policyn.", "score": 0.25, "label": "poor", "error": "calque (var tredje månad); missing 'den' (den nya policyn)", "group": 56}
+{"id": 57, "text": "Det har varit en ovanligt varmt höst, och på flera ställen i landet rosor blommar fortfarande trots att det är snart november.", "score": 0.15, "label": "poor", "error": "agreement (varm); V2 violation; adverb placement in subordinate clause (det snart är)", "group": 57}
+{"id": 58, "text": "Mjölken har gått ut.", "score": 0.9, "label": "good", "error": null, "group": 58}
+{"id": 60, "text": "Hon har varit aldrig utomlands.", "score": 0.4, "label": "poor", "error": "adverb/negation placement ('aldrig varit' -> 'varit aldrig')", "group": 458}
+{"id": 61, "text": "Vad heter du?", "score": 0.95, "label": "good", "error": null, "group": 61}
+{"id": 62, "text": "Kommunen bygger nya skolar i området.", "score": 0.4, "label": "poor", "error": "wrong plural form ('skolor' -> 'skolar')", "group": 450}
+{"id": 63, "text": "Jag kan inte komma eftersom jag har inte tid i dag.", "score": 0.4, "label": "poor", "error": "negation placement in subordinate clause (eftersom jag inte har)", "group": 63}
+{"id": 64, "text": "Enligt den senaste undersökningen svenska tonåringar läser allt färre böcker på fritiden, något som oroar både lärare och bibliotekarier.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('läser svenska tonåringar' -> 'svenska tonåringar läser')", "group": 148}
+{"id": 65, "text": "Vi träffades i en fest hos en kompis.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('på' -> 'i')", "group": 554}
+{"id": 67, "text": "Hon behöver vila efter operationen.", "score": 0.95, "label": "good", "error": null, "group": 67}
+{"id": 68, "text": "Hon tog med sig paraplyet.", "score": 0.95, "label": "good", "error": null, "group": 68}
+{"id": 69, "text": "Läkaren sa att jag inte behöver ta några fler tabletter.", "score": 0.95, "label": "good", "error": null, "group": 69}
+{"id": 70, "text": "Efter en lång och kall vinter är det skönt att äntligen kunna sitta ute i solen och dricka kaffe på balkongen.", "score": 0.95, "label": "good", "error": null, "group": 70}
+{"id": 72, "text": "Jag läste ut boken på en enda helg, eftersom jag inte kunde lägga den ifrån mig.", "score": 1.0, "label": "good", "error": null, "group": 72}
+{"id": 73, "text": "Mötet blev flyttad till torsdag för att flera deltagare var sjuka.", "score": 0.4, "label": "poor", "error": "participle agreement with ett-word (flyttat)", "group": 73}
+{"id": 74, "text": "Det nya systemet är både snabbare och mer enkel att använda än den gamla.", "score": 0.2, "label": "poor", "error": "comparative (enklare); pronoun gender (det gamla)", "group": 74}
+{"id": 77, "text": "Om det regnar stannar vi inne.", "score": 0.95, "label": "good", "error": null, "group": 77}
+{"id": 79, "text": "Biblioteket har förlängt sina öppettider, så nu kan man låna böcker även på söndagar mellan tolv och fyra.", "score": 0.95, "label": "good", "error": null, "group": 79}
+{"id": 80, "text": "De har bott i samma lägenhet i över trettio år.", "score": 0.95, "label": "good", "error": null, "group": 80}
+{"id": 81, "text": "Maten var god men lite för salt.", "score": 0.95, "label": "good", "error": null, "group": 81}
+{"id": 82, "text": "Hon har en stor hus vid havet.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('ett stort' -> 'en stor')", "group": 145}
+{"id": 83, "text": "Jag är rädd av spindlar.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('för' -> 'av')", "group": 571}
+{"id": 84, "text": "Hon sover redan.", "score": 1.0, "label": "good", "error": null, "group": 84}
+{"id": 85, "text": "Alla platser är bokade.", "score": 0.95, "label": "good", "error": null, "group": 85}
+{"id": 87, "text": "Vi har bott på Sverige i tre år.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('i' -> 'på')", "group": 338}
+{"id": 88, "text": "Dem har bodde i samma lägenhet i över trettio år.", "score": 0.2, "label": "poor", "error": "wrong pronoun form ('De' -> 'Dem'); wrong verb form ('bott' -> 'bodde')", "group": 80}
+{"id": 90, "text": "Vi visste inte att de hade flyttat till en annan stad.", "score": 0.95, "label": "good", "error": null, "group": 90}
+{"id": 91, "text": "Skogsbränderna har tvingat hundratals människor att lämna sina hem.", "score": 0.95, "label": "good", "error": null, "group": 91}
+{"id": 92, "text": "Jag lämnade bok på bordet i köket.", "score": 0.4, "label": "poor", "error": "wrong definite/indefinite form ('boken' -> 'bok')", "group": 254}
+{"id": 94, "text": "Han blev kär på sin bästa vän.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('i' -> 'på')", "group": 477}
+{"id": 95, "text": "Vi bjöd grannarna på kaffe och kanel bullar.", "score": 0.45, "label": "poor", "error": "compound written as two words ('kanelbullar' -> 'kanel bullar')", "group": 387}
+{"id": 98, "text": "Om man vill bli bättre på att skriva man måste läsa mycket och skriver varje dag.", "score": 0.2, "label": "poor", "error": "verb-second word order violated ('måste man' -> 'man måste'); wrong verb form ('skriva' -> 'skriver')", "group": 333}
+{"id": 99, "text": "Det beror på vädret.", "score": 0.95, "label": "good", "error": null, "group": 99}
+{"id": 101, "text": "Matchen var jämnt ända in i slutminuterna, då hemmalaget till slut lyckades göra det avgörande målet efter en snabb kontring.", "score": 0.55, "label": "poor", "error": "agreement with en-word (jämn)", "group": 101}
+{"id": 102, "text": "Biblioteket har förlängt sina öppettider, så nu kan man lånar böcker även på söndagar mellan tolv och fyra.", "score": 0.35, "label": "poor", "error": "wrong verb form ('låna' -> 'lånar')", "group": 79}
+{"id": 103, "text": "Vi måste köpa ny skor till barnen.", "score": 0.4, "label": "poor", "error": "agreement error ('nya' -> 'ny')", "group": 243}
+{"id": 104, "text": "Projektgruppen träffas varje måndag för att gå igenom vad som har gjorts och vad som återstå innan lanseringen i december.", "score": 0.35, "label": "poor", "error": "wrong verb form ('återstår' -> 'återstå')", "group": 41}
+{"id": 106, "text": "Den nya lagen träder i kraft nästa år.", "score": 0.95, "label": "good", "error": null, "group": 106}
+{"id": 107, "text": "Det nya systemet gör det möjligt att boka tid hos läkaren via appen, vilket många patienter har efterfrågat länge.", "score": 0.95, "label": "good", "error": null, "group": 107}
+{"id": 108, "text": "Han är ett duktigt läkare.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('en duktig' -> 'ett duktigt')", "group": 402}
+{"id": 109, "text": "Räntan höjdes med en halv procent enhet, vilken överraskade många bedömare.", "score": 0.25, "label": "poor", "error": "compound split (procentenhet); relative pronoun (vilket)", "group": 109}
+{"id": 110, "text": "Jag brukar springa tre gånger i veckan.", "score": 0.95, "label": "good", "error": null, "group": 110}
+{"id": 111, "text": "Den nya lag träder i kraft den första juli.", "score": 0.4, "label": "poor", "error": "missing definite suffix after 'den nya' (lagen)", "group": 111}
+{"id": 112, "text": "Det här är den mest vacker platsen jag vet.", "score": 0.4, "label": "poor", "error": "agreement error ('vackraste' -> 'mest vacker')", "group": 528}
+{"id": 113, "text": "En stor träd föll över vägen under storm i natt.", "score": 0.25, "label": "poor", "error": "wrong grammatical gender ('Ett stort träd' -> 'En stor träd'); wrong definite/indefinite form ('stormen' -> 'storm')", "group": 525}
+{"id": 114, "text": "Det är synd att du kan inte komma.", "score": 0.4, "label": "poor", "error": "adverb/negation placement ('inte kan' -> 'kan inte')", "group": 449}
+{"id": 115, "text": "Hon är gift med en dansk.", "score": 0.95, "label": "good", "error": null, "group": 115}
+{"id": 116, "text": "Om symtomen går inte över inom en vecka du bör kontakta vårdcentralen.", "score": 0.15, "label": "poor", "error": "negation placement in subordinate clause; V2 violation", "group": 116}
+{"id": 117, "text": "Min dator är så gammal att den knappt klarar av att starta.", "score": 0.95, "label": "good", "error": null, "group": 117}
+{"id": 118, "text": "Jag inte hinner i dag.", "score": 0.35, "label": "poor", "error": "negation before finite verb in main clause (hinner inte)", "group": 118}
+{"id": 119, "text": "Hon är mycket intresserad i historia och språk.", "score": 0.45, "label": "poor", "error": "wrong preposition (intresserad av)", "group": 119}
+{"id": 120, "text": "Vad kostar biljetten?", "score": 1.0, "label": "good", "error": null, "group": 120}
+{"id": 121, "text": "Stek löken i smör tills den blir mjuk och gyllene, och tillsätt sedan vitlöken.", "score": 0.95, "label": "good", "error": null, "group": 121}
+{"id": 122, "text": "Hon sjunger i en kör.", "score": 0.95, "label": "good", "error": null, "group": 122}
+{"id": 124, "text": "Jag vet inte vad han heter.", "score": 0.95, "label": "good", "error": null, "group": 124}
+{"id": 125, "text": "Den svenska sommar är kort, men den är ofta vackert.", "score": 0.25, "label": "poor", "error": "wrong definite/indefinite form ('sommaren' -> 'sommar'); agreement error ('vacker' -> 'vackert')", "group": 437}
+{"id": 126, "text": "Igår ministern sa att budgeten var inte tillräcklig för skolorna, och därför de måste skära ner på lärarna som redan är för få.", "score": 0.15, "label": "poor", "error": "V2 violations (sa ministern, måste de); negation placement in subordinate clause", "group": 126}
+{"id": 127, "text": "Värm ugnen till 200 grader. Blanda mjöl, socker och bakpulver i en skål, tillsätt det smälta smöret och rör till en jämn smet.", "score": 0.95, "label": "good", "error": null, "group": 127}
+{"id": 128, "text": "Det här är det bästa boken jag har läst.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('den bästa' -> 'det bästa')", "group": 17}
+{"id": 129, "text": "Hur mår du?", "score": 0.95, "label": "good", "error": null, "group": 129}
+{"id": 130, "text": "Hon talar flytande spanska, eftersom hon växte upp i Madrid.", "score": 0.95, "label": "good", "error": null, "group": 130}
+{"id": 133, "text": "Vattnet var kallt men skönt.", "score": 0.95, "label": "good", "error": null, "group": 133}
+{"id": 135, "text": "Algoritmen sorterar listan med att jämför två element i taget.", "score": 0.3, "label": "poor", "error": "wrong preposition and verb form (genom att jämföra)", "group": 135}
+{"id": 136, "text": "Hon talar flytande spanska därför hon växte upp i Madrid.", "score": 0.4, "label": "poor", "error": "'därför' means therefore; needs 'eftersom' or 'därför att'", "group": 136}
+{"id": 138, "text": "Enligt prognosen blir det snö i hela Norrland under helgen.", "score": 0.95, "label": "good", "error": null, "group": 138}
+{"id": 139, "text": "Min föräldrar har köpt en sommar stuga i Dalarna.", "score": 0.25, "label": "poor", "error": "agreement error ('Mina' -> 'Min'); compound written as two words ('sommarstuga' -> 'sommar stuga')", "group": 451}
+{"id": 140, "text": "Tack för hjälpet!", "score": 0.45, "label": "poor", "error": "wrong gender form (hjälpen)", "group": 140}
+{"id": 141, "text": "Företaget har anställt tjugo nya medarbetare i år.", "score": 0.95, "label": "good", "error": null, "group": 141}
+{"id": 142, "text": "Kaffe var för stark, så jag hällde i lite mjölk.", "score": 0.3, "label": "poor", "error": "missing definite form and neuter agreement (Kaffet var för starkt)", "group": 142}
+{"id": 143, "text": "Under natten det föll nästan en halv meter snö, och på morgonen var vägarna helt oframkomlig.", "score": 0.2, "label": "poor", "error": "verb-second word order violated ('föll det' -> 'det föll'); agreement error ('oframkomliga' -> 'oframkomlig')", "group": 559}
+{"id": 144, "text": "Min kollegor och jag har bestämt oss för att cyklar till jobbet varje dag under hela maj.", "score": 0.2, "label": "poor", "error": "agreement error ('Mina' -> 'Min'); wrong verb form ('cykla' -> 'cyklar')", "group": 160}
+{"id": 145, "text": "Hon har ett stort hus vid havet.", "score": 0.95, "label": "good", "error": null, "group": 145}
+{"id": 146, "text": "Det beror av vädret.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('på' -> 'av')", "group": 99}
+{"id": 147, "text": "Vi måste byta lösenord var tredje månad enligt den nya policyn.", "score": 0.9, "label": "good", "error": null, "group": 147}
+{"id": 148, "text": "Enligt den senaste undersökningen läser svenska tonåringar allt färre böcker på fritiden, något som oroar både lärare och bibliotekarier.", "score": 0.95, "label": "good", "error": null, "group": 148}
+{"id": 150, "text": "När jag öppnade dörren såg jag att någon hade lämnat ett paket på trappan.", "score": 0.95, "label": "good", "error": null, "group": 150}
+{"id": 153, "text": "Det är viktig att man tvättar händerna innan man lagar mat.", "score": 0.45, "label": "poor", "error": "neuter adjective agreement (viktigt)", "group": 153}
+{"id": 154, "text": "Det tog ett timme att köra hem.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('en timme' -> 'ett timme')", "group": 385}
+{"id": 155, "text": "När solen gick ner det blev kallt.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('blev det' -> 'det blev')", "group": 269}
+{"id": 156, "text": "Efter flera års förhandlingar enades länderna till slut om ett gemensamt avtal för att minska utsläppen av växthusgaser, även om många miljöorganisationer anser att det inte går tillräckligt långt.", "score": 0.95, "label": "good", "error": null, "group": 156}
+{"id": 157, "text": "Under andra världskriget var Sverige officiellt neutralt, men landet tillät ändå tyska trupptransporter på sina järnvägar under en period.", "score": 0.95, "label": "good", "error": null, "group": 157}
+{"id": 158, "text": "Vi har inte bestämt oss än, men vi lutar åt att åka till Gotland i sommar.", "score": 0.95, "label": "good", "error": null, "group": 158}
+{"id": 159, "text": "Han och jag har känt varandra länge.", "score": 0.95, "label": "good", "error": null, "group": 159}
+{"id": 160, "text": "Mina kollegor och jag har bestämt oss för att cykla till jobbet varje dag under hela maj.", "score": 0.95, "label": "good", "error": null, "group": 160}
+{"id": 161, "text": "I morgon åker vi till Kiruna.", "score": 0.95, "label": "good", "error": null, "group": 161}
+{"id": 162, "text": "Butiken har stängt för dagen.", "score": 0.95, "label": "good", "error": null, "group": 162}
+{"id": 163, "text": "Trots att företaget gick med vinst förra året valde ledningen att säga upp ett femtiotal anställda, något som facket har kritiserat hårt.", "score": 0.95, "label": "good", "error": null, "group": 163}
+{"id": 166, "text": "Barnen somnade direkt.", "score": 1.0, "label": "good", "error": null, "group": 166}
+{"id": 167, "text": "Jag gillar inte när regnar hela dagen.", "score": 0.35, "label": "poor", "error": "missing subject ('det regnar' -> 'regnar')", "group": 396}
+{"id": 168, "text": "Trots det dåliga vädret kom nästan alla gäster till bröllopet.", "score": 0.95, "label": "good", "error": null, "group": 168}
+{"id": 169, "text": "Laget vann matchen med två mål mot ett efter ett sent avgörande i andra halvlek.", "score": 0.95, "label": "good", "error": null, "group": 169}
+{"id": 170, "text": "Vi åt middag på en liten restaurang som ligger alldeles vid hamn.", "score": 0.35, "label": "poor", "error": "missing definite (hamnen); tense shift", "group": 170}
+{"id": 171, "text": "Jag förstår inte varför kommer hon alltid för sent till jobb.", "score": 0.2, "label": "poor", "error": "word order ('varför hon alltid kommer' -> 'varför kommer hon alltid'); wrong definite/indefinite form ('jobbet' -> 'jobb')", "group": 586}
+{"id": 172, "text": "Jag kommer för att sakna ni när ni flyttar.", "score": 0.3, "label": "poor", "error": "wrong or missing preposition ('att' -> 'för att'); wrong pronoun form ('er' -> 'ni')", "group": 244}
+{"id": 174, "text": "Han köpte två böcker på bokrean.", "score": 0.95, "label": "good", "error": null, "group": 174}
+{"id": 177, "text": "När jag var liten tillbringade vi varje sommar hos min farmor på landet. Där fanns inget internet, så vi badade i sjön, plockade blåbär och spelade kort på kvällarna.", "score": 1.0, "label": "good", "error": null, "group": 177}
+{"id": 178, "text": "Hon tog sin cykel och åkte till stationen.", "score": 0.95, "label": "good", "error": null, "group": 178}
+{"id": 179, "text": "Vi köpte en ny hus på landet förra året.", "score": 0.3, "label": "poor", "error": "wrong gender and agreement (ett nytt hus)", "group": 179}
+{"id": 180, "text": "Efter maten vi gick ut och promenerade.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('gick vi' -> 'vi gick')", "group": 28}
+{"id": 181, "text": "Det är viktigt att man tvättar händerna innan man lagar mat, särskilt när man hanterar rå kyckling.", "score": 0.95, "label": "good", "error": null, "group": 181}
+{"id": 182, "text": "Vi ses på måndag.", "score": 1.0, "label": "good", "error": null, "group": 182}
+{"id": 183, "text": "Är viktigt att sova ordentligt.", "score": 0.35, "label": "poor", "error": "missing subject ('Det är' -> 'Är')", "group": 51}
+{"id": 185, "text": "När vi kom fram till stugan, det var redan mörkt ute.", "score": 0.35, "label": "poor", "error": "V2 violation after fronted subordinate clause (var det)", "group": 185}
+{"id": 186, "text": "Varför svarar du inte när jag ringer?", "score": 1.0, "label": "good", "error": null, "group": 186}
+{"id": 187, "text": "Hunden bet brevbäraren i benet.", "score": 0.95, "label": "good", "error": null, "group": 187}
+{"id": 190, "text": "Alla studentar måste anmäla sig före fredag.", "score": 0.4, "label": "poor", "error": "wrong plural form ('studenter' -> 'studentar')", "group": 557}
+{"id": 191, "text": "Hon tog hennes cykel och åkte till station.", "score": 0.25, "label": "poor", "error": "wrong pronoun form ('sin' -> 'hennes'); wrong definite/indefinite form ('stationen' -> 'station')", "group": 178}
+{"id": 192, "text": "Den sista buss går kvart över tolv.", "score": 0.4, "label": "poor", "error": "wrong definite/indefinite form ('bussen' -> 'buss')", "group": 593}
+{"id": 193, "text": "Läraren förklarade att eleverna skulle lämna in uppsatserna senast på fredag.", "score": 0.95, "label": "good", "error": null, "group": 193}
+{"id": 194, "text": "Hon målade väggar i vardagsrummet ljusblå.", "score": 0.4, "label": "poor", "error": "wrong definite/indefinite form ('väggarna' -> 'väggar')", "group": 271}
+{"id": 195, "text": "Det var första gången som hon såg norrsken.", "score": 0.95, "label": "good", "error": null, "group": 195}
+{"id": 196, "text": "Han är bra i matematik.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('på' -> 'i')", "group": 596}
+{"id": 199, "text": "Eftersom tåget var försenat missade jag mötet, och min chef var inte särskilt glad.", "score": 0.95, "label": "good", "error": null, "group": 199}
+{"id": 200, "text": "Den gamla bro över älven renoverades förra sommaren.", "score": 0.4, "label": "poor", "error": "missing definite suffix after 'den gamla' (bron)", "group": 200}
+{"id": 201, "text": "Vi plockade flera kilo äpplar.", "score": 0.4, "label": "poor", "error": "wrong plural form ('äpplen' -> 'äpplar')", "group": 275}
+{"id": 203, "text": "Räntan höjdes med en halv procentenhet, vilket överraskade många bedömare.", "score": 0.95, "label": "good", "error": null, "group": 203}
+{"id": 204, "text": "Polisen letar efter en man som har rånat en bank i centrum.", "score": 0.95, "label": "good", "error": null, "group": 204}
+{"id": 206, "text": "Han är lika lång som sin pappa.", "score": 0.95, "label": "good", "error": null, "group": 206}
+{"id": 207, "text": "Eleverna fick välja mellan två olika uppsatsämnen.", "score": 0.9, "label": "good", "error": null, "group": 207}
+{"id": 208, "text": "Boken lästes av miljontals människor.", "score": 0.95, "label": "good", "error": null, "group": 208}
+{"id": 209, "text": "Vi bor i ett stort lägenhet mitt i stan.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('en stor' -> 'ett stort')", "group": 556}
+{"id": 210, "text": "Stek fisken i två minuter på varje sida, salta och peppra, och servera det med kokt potatis och en klick smör.", "score": 0.45, "label": "poor", "error": "wrong pronoun form ('den' -> 'det')", "group": 584}
+{"id": 211, "text": "Det regnade så mycket att vi bestämde oss för att stanna inne.", "score": 1.0, "label": "good", "error": null, "group": 211}
+{"id": 212, "text": "Laget vinnade matchen med två mål mot ett.", "score": 0.3, "label": "poor", "error": "wrong past tense of strong verb (vann)", "group": 212}
+{"id": 213, "text": "Jag ringde henne i morse.", "score": 0.95, "label": "good", "error": null, "group": 213}
+{"id": 214, "text": "Kan någon hjälpa mig att bära lådorna?", "score": 0.95, "label": "good", "error": null, "group": 214}
+{"id": 215, "text": "Det var svårt att hitta parkering.", "score": 0.95, "label": "good", "error": null, "group": 215}
+{"id": 218, "text": "Lampan i kök har gått sönder.", "score": 0.4, "label": "poor", "error": "wrong definite/indefinite form ('köket' -> 'kök')", "group": 220}
+{"id": 219, "text": "Efter jobbet jag gick till gymmet, men det var full.", "score": 0.2, "label": "poor", "error": "verb-second word order violated ('gick jag' -> 'jag gick'); agreement error ('fullt' -> 'full')", "group": 10}
+{"id": 220, "text": "Lampan i köket har gått sönder.", "score": 0.95, "label": "good", "error": null, "group": 220}
+{"id": 221, "text": "Det har varit ett långt vinter.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('en lång' -> 'ett långt')", "group": 543}
+{"id": 222, "text": "Mormor brukade baka kanelbullar varje lördag när vi var små.", "score": 1.0, "label": "good", "error": null, "group": 222}
+{"id": 224, "text": "Jag har läsit hela serien två gånger, och jag tycker att den sista bok är den bästa.", "score": 0.2, "label": "poor", "error": "wrong verb form ('läst' -> 'läsit'); wrong definite/indefinite form ('boken' -> 'bok')", "group": 465}
+{"id": 225, "text": "Trots att företaget gick med vinst förra året ledningen valde att säga upp ett femtiotal anställda, någonting som facket har kritiserat hårt.", "score": 0.4, "label": "poor", "error": "V2 violation after subordinate clause (valde ledningen)", "group": 225}
+{"id": 226, "text": "Forskarna menar att resultaten måste tolkas med försiktighet, eftersom urvalet var litet.", "score": 0.95, "label": "good", "error": null, "group": 226}
+{"id": 227, "text": "Den nya chefen är mycket trevlig och lätt att prata med.", "score": 0.95, "label": "good", "error": null, "group": 227}
+{"id": 229, "text": "Brevet var skrivet för hand.", "score": 0.95, "label": "good", "error": null, "group": 229}
+{"id": 231, "text": "Vi ser en fantastisk film i går.", "score": 0.35, "label": "poor", "error": "wrong verb form ('såg' -> 'ser')", "group": 509}
+{"id": 232, "text": "Varje morgon dricker jag två koppar kaffe.", "score": 0.95, "label": "good", "error": null, "group": 232}
+{"id": 233, "text": "Dem var mycket trötta efter resan.", "score": 0.4, "label": "poor", "error": "de/dem confusion: subject form is de", "group": 233}
+{"id": 234, "text": "Det är inte lätt att lära sig ett nytt språk som vuxen, men det går.", "score": 0.9, "label": "good", "error": null, "group": 234}
+{"id": 236, "text": "Det nya systemet är både snabbare och enklare att använda än det gamla.", "score": 0.95, "label": "good", "error": null, "group": 236}
+{"id": 237, "text": "Hur länge har ni känt varandra?", "score": 1.0, "label": "good", "error": null, "group": 237}
+{"id": 239, "text": "Han lovade att ringa tillbaka, men det gjorde han aldrig.", "score": 1.0, "label": "good", "error": null, "group": 239}
+{"id": 241, "text": "Hon gav jag en bok i present.", "score": 0.45, "label": "poor", "error": "wrong pronoun form ('mig' -> 'jag')", "group": 308}
+{"id": 242, "text": "Jag har en förslag till nästa möte.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('ett förslag' -> 'en förslag')", "group": 281}
+{"id": 243, "text": "Vi måste köpa nya skor till barnen.", "score": 0.95, "label": "good", "error": null, "group": 243}
+{"id": 244, "text": "Jag kommer att sakna er när ni flyttar.", "score": 0.95, "label": "good", "error": null, "group": 244}
+{"id": 246, "text": "Det var ett fint dag i parken.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('en fin' -> 'ett fint')", "group": 403}
+{"id": 247, "text": "Hej! Jag undrar om ni har några lediga platser på kursen i keramik som startar i oktober, eftersom jag inte hann anmäla mig i tid.", "score": 0.95, "label": "good", "error": null, "group": 247}
+{"id": 248, "text": "Vattnet var kall men skönt.", "score": 0.4, "label": "poor", "error": "agreement error ('kallt' -> 'kall')", "group": 133}
+{"id": 249, "text": "Var ligger närmast apotek?", "score": 0.45, "label": "poor", "error": "superlative form (närmaste)", "group": 249}
+{"id": 251, "text": "Hon blev utsett till årets ledare av en enig jury.", "score": 0.45, "label": "poor", "error": "participle agreement (utsedd)", "group": 251}
+{"id": 252, "text": "Han har två bröder.", "score": 0.95, "label": "good", "error": null, "group": 252}
+{"id": 253, "text": "Kan någon hjälper mig att bära lådorna?", "score": 0.35, "label": "poor", "error": "wrong verb form ('hjälpa' -> 'hjälper')", "group": 214}
+{"id": 254, "text": "Jag lämnade boken på bordet i köket.", "score": 0.95, "label": "good", "error": null, "group": 254}
+{"id": 255, "text": "Min mamma jobbar som sjuk sköterska på sjukhuset.", "score": 0.45, "label": "poor", "error": "compound split (sjuksköterska)", "group": 255}
+{"id": 256, "text": "Under andra världskriget var Sverige officiellt neutral, men landet tillät ändå tyska trupptransporter på deras järnvägar under en period.", "score": 0.3, "label": "poor", "error": "neuter agreement with country name (neutralt); reflexive possessive (sina)", "group": 256}
+{"id": 257, "text": "Jag skrev till hyresvärden att värmen fungerar inte i sovrummet, men jag har fortfarande inte fått någon svar.", "score": 0.25, "label": "poor", "error": "adverb/negation placement ('värmen inte fungerar' -> 'värmen fungerar inte'); wrong grammatical gender ('något' -> 'någon')", "group": 503}
+{"id": 258, "text": "Hon sjunga i en kör.", "score": 0.35, "label": "poor", "error": "wrong verb form ('sjunger' -> 'sjunga')", "group": 122}
+{"id": 259, "text": "Tack för hjälpen!", "score": 1.0, "label": "good", "error": null, "group": 259}
+{"id": 260, "text": "Har du sett min telefon någonstans?", "score": 0.95, "label": "good", "error": null, "group": 260}
+{"id": 261, "text": "Hon berättade att hon aldrig hade ätit sushi förut, men att hon tyckte att det var gott.", "score": 0.95, "label": "good", "error": null, "group": 261}
+{"id": 262, "text": "Vill du ha kaffe eller te till efterrätten?", "score": 1.0, "label": "good", "error": null, "group": 262}
+{"id": 263, "text": "Det låter som en bra idé.", "score": 1.0, "label": "good", "error": null, "group": 263}
+{"id": 264, "text": "Vi åt pannkakor till lunch.", "score": 0.95, "label": "good", "error": null, "group": 264}
+{"id": 265, "text": "Läkaren rekommenderade vila och mycket vätska.", "score": 0.95, "label": "good", "error": null, "group": 265}
+{"id": 266, "text": "Vad du heter?", "score": 0.35, "label": "poor", "error": "word order ('Vad heter du' -> 'Vad du heter')", "group": 61}
+{"id": 267, "text": "Kommunen har beslutat att stänger badhuset under sommaren för att genomföra en omfattande renovering av bassängerna och omklädningsrummen.", "score": 0.35, "label": "poor", "error": "wrong verb form ('stänga' -> 'stänger')", "group": 313}
+{"id": 268, "text": "Han tog hans jacka och gick hem.", "score": 0.45, "label": "poor", "error": "reflexive possessive needed (sin jacka)", "group": 268}
+{"id": 269, "text": "När solen gick ner blev det kallt.", "score": 0.95, "label": "good", "error": null, "group": 269}
+{"id": 270, "text": "Konserten blev inställt med kort varsel på grund av sjukdom.", "score": 0.45, "label": "poor", "error": "participle agreement (inställd)", "group": 270}
+{"id": 271, "text": "Hon målade väggarna i vardagsrummet ljusblå.", "score": 0.95, "label": "good", "error": null, "group": 271}
+{"id": 273, "text": "Den svenska modellen bygger på att arbetsmarknadens parter själva förhandlar fram löner och villkor, utan att staten lägger sig i.", "score": 0.9, "label": "good", "error": null, "group": 273}
+{"id": 274, "text": "Läraren förklarade att eleverna skulle lämnar in uppsatserna senast på fredag.", "score": 0.35, "label": "poor", "error": "wrong verb form ('lämna' -> 'lämnar')", "group": 193}
+{"id": 275, "text": "Vi plockade flera kilo äpplen.", "score": 0.95, "label": "good", "error": null, "group": 275}
+{"id": 276, "text": "Vi bodde på ett litet hotell nära stranden.", "score": 0.95, "label": "good", "error": null, "group": 276}
+{"id": 277, "text": "Barnen lekte i trädgården medan vi lagade middag.", "score": 1.0, "label": "good", "error": null, "group": 277}
+{"id": 278, "text": "När jag var liten vi tillbringade varje sommar hos min farmor på landet. Där fanns det inte internet, så vi badade i sjön och plockade blåbärer och spelade kort på kvällarna.", "score": 0.25, "label": "poor", "error": "V2 violation after subordinate clause; wrong plural (blåbär)", "group": 278}
+{"id": 279, "text": "Jag har tappat nyckel till förrådet.", "score": 0.4, "label": "poor", "error": "wrong definite/indefinite form ('nyckeln' -> 'nyckel')", "group": 46}
+{"id": 280, "text": "Ring mig när du är framme.", "score": 1.0, "label": "good", "error": null, "group": 280}
+{"id": 281, "text": "Jag har ett förslag till nästa möte.", "score": 0.95, "label": "good", "error": null, "group": 281}
+{"id": 282, "text": "Förra året reser vi till Japan.", "score": 0.35, "label": "poor", "error": "wrong verb form ('reste' -> 'reser')", "group": 8}
+{"id": 283, "text": "Han bor i en gammal hus på landet.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('ett gammalt' -> 'en gammal')", "group": 460}
+{"id": 284, "text": "Hon tog tåget till Stockholm för att träffa sin bror, som hon inte hade sett på flera år.", "score": 1.0, "label": "good", "error": null, "group": 284}
+{"id": 285, "text": "Var ligger närmaste apotek?", "score": 0.95, "label": "good", "error": null, "group": 285}
+{"id": 287, "text": "Glöm inte tandborsten!", "score": 0.95, "label": "good", "error": null, "group": 287}
+{"id": 289, "text": "Hon berättade att hon hade aldrig ätit sushi förut, men att hon tyckte att det var god.", "score": 0.25, "label": "poor", "error": "adverb/negation placement ('aldrig hade' -> 'hade aldrig'); agreement error ('gott' -> 'god')", "group": 261}
+{"id": 290, "text": "Det gör inte någon sense att vänta längre.", "score": 0.4, "label": "poor", "error": "anglicism (Det är ingen idé / Det är meningslöst)", "group": 290}
+{"id": 291, "text": "Det blev kallare under natten.", "score": 0.95, "label": "good", "error": null, "group": 291}
+{"id": 292, "text": "Min bror är intresserad i fotboll.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('av' -> 'i')", "group": 512}
+{"id": 293, "text": "Svält åren i slutet av 1860-talet drev många svenskar att emigrera till Amerika.", "score": 0.45, "label": "poor", "error": "compound split (svältåren)", "group": 293}
+{"id": 294, "text": "Programmet läser in data från en fil, rensa bort tomma rader och sparar resultatet i en ny tabell.", "score": 0.35, "label": "poor", "error": "wrong verb form ('rensar' -> 'rensa')", "group": 485}
+{"id": 295, "text": "Det var svår att hitta parkering.", "score": 0.4, "label": "poor", "error": "agreement error ('svårt' -> 'svår')", "group": 215}
+{"id": 296, "text": "Han tvättade sin bil i går.", "score": 0.95, "label": "good", "error": null, "group": 296}
+{"id": 298, "text": "Maten var gott men lite för salt.", "score": 0.4, "label": "poor", "error": "agreement error ('god' -> 'gott')", "group": 81}
+{"id": 299, "text": "Hon är mer gammal än sin bror.", "score": 0.4, "label": "poor", "error": "agreement error ('äldre' -> 'mer gammal')", "group": 355}
+{"id": 300, "text": "Vem har ätit upp den sista kakan?", "score": 1.0, "label": "good", "error": null, "group": 300}
+{"id": 301, "text": "Min farfar berättad ofta om hans barndom när vi var små.", "score": 0.2, "label": "poor", "error": "wrong verb form ('berättade' -> 'berättad'); wrong pronoun form ('sin' -> 'hans')", "group": 565}
+{"id": 302, "text": "Jag har försökt nå dig hela förmiddagen, men det går inte fram.", "score": 0.9, "label": "good", "error": null, "group": 302}
+{"id": 304, "text": "Vi är ledsen att informera dig om att ditt paket har blivit försenad. Det beräknas nu komma fram inom tre till fem arbetsdagar.", "score": 0.35, "label": "poor", "error": "plural agreement (ledsna); participle agreement (försenat)", "group": 304}
+{"id": 308, "text": "Hon gav mig en bok i present.", "score": 0.95, "label": "good", "error": null, "group": 308}
+{"id": 309, "text": "Det blev mer kall under natten.", "score": 0.4, "label": "poor", "error": "agreement error ('kallare' -> 'mer kall')", "group": 291}
+{"id": 310, "text": "Hela familjen samlades till jul.", "score": 0.95, "label": "good", "error": null, "group": 310}
+{"id": 311, "text": "Vi inte visste att dem hade flyttat till ett annat stad.", "score": 0.1, "label": "poor", "error": "adverb/negation placement ('visste inte' -> 'inte visste'); wrong pronoun form ('de' -> 'dem'); wrong grammatical gender ('en annan' -> 'ett annat')", "group": 90}
+{"id": 313, "text": "Kommunen har beslutat att stänga badhuset under sommaren för att genomföra en omfattande renovering av bassängerna och omklädningsrummen.", "score": 0.95, "label": "good", "error": null, "group": 313}
+{"id": 316, "text": "Älgen sprang över vägen precis framför bilen, men som tur var hann vi bromsa i tid.", "score": 0.95, "label": "good", "error": null, "group": 316}
+{"id": 317, "text": "Vi köpte en ny soffa i helgen.", "score": 0.95, "label": "good", "error": null, "group": 317}
+{"id": 318, "text": "När vi kom fram till hotellet det visade sig att rummet inte var städad, så vi fick vänta i receptionen i över en timme.", "score": 0.2, "label": "poor", "error": "verb-second word order violated ('visade det sig' -> 'det visade sig'); agreement error ('städat' -> 'städad')", "group": 397}
+{"id": 319, "text": "Nästa vecka börjar skolan igen.", "score": 0.95, "label": "good", "error": null, "group": 319}
+{"id": 320, "text": "Jag köpte ett äpple och en banan.", "score": 0.95, "label": "good", "error": null, "group": 320}
+{"id": 323, "text": "Väder var så dåligt att vi bestämde för att stanna hemma.", "score": 0.25, "label": "poor", "error": "wrong definite/indefinite form ('Vädret' -> 'Väder'); wrong pronoun form ('bestämde oss' -> 'bestämde')", "group": 417}
+{"id": 324, "text": "Om du märker att din konto har använts av någon annan bör du omedelbart byta lösenord och kontakta banken.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('ditt konto' -> 'din konto')", "group": 436}
+{"id": 326, "text": "Regeringen meddelade i går att den tänker inte höja bensinskatten under nästa år, trots kritik från flera miljöorganisationer.", "score": 0.4, "label": "poor", "error": "adverb/negation placement ('inte tänker' -> 'tänker inte')", "group": 482}
+{"id": 327, "text": "Vi pratade om framtiden hela kvällen.", "score": 0.95, "label": "good", "error": null, "group": 327}
+{"id": 328, "text": "Hon är gift till en dansk.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('med' -> 'till')", "group": 115}
+{"id": 329, "text": "Han försök öppna dörren, men den var låst.", "score": 0.35, "label": "poor", "error": "wrong verb form ('försökte' -> 'försök')", "group": 558}
+{"id": 330, "text": "Jag har bott i Göteborg i fem år, men jag har fortfarande inte vant mig vid regnet.", "score": 0.95, "label": "good", "error": null, "group": 330}
+{"id": 331, "text": "Igår jag åkte till Stockholm för att träffa min bror.", "score": 0.35, "label": "poor", "error": "V2 violation: verb must come second (Igår åkte jag)", "group": 331}
+{"id": 332, "text": "Om det regnar vi stannar inne.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('stannar vi' -> 'vi stannar')", "group": 77}
+{"id": 333, "text": "Om man vill bli bättre på att skriva måste man läsa mycket och skriva varje dag.", "score": 0.95, "label": "good", "error": null, "group": 333}
+{"id": 334, "text": "Jag ringde hon i morse.", "score": 0.45, "label": "poor", "error": "wrong pronoun form ('henne' -> 'hon')", "group": 213}
+{"id": 338, "text": "Vi har bott i Sverige i tre år.", "score": 0.95, "label": "good", "error": null, "group": 338}
+{"id": 339, "text": "När jag var liten var jag livrädd för åsk väder, och varje gång det mullrade gömde jag mig under täcket.", "score": 0.45, "label": "poor", "error": "compound written as two words ('åskväder' -> 'åsk väder')", "group": 354}
+{"id": 340, "text": "Det spelar inte någon roll hur många gånger jag förklarar det för honom, han lyssnar inte ändå på mig.", "score": 0.45, "label": "poor", "error": "adverb order (lyssnar ändå inte)", "group": 340}
+{"id": 341, "text": "Han är lika långt som sin pappa.", "score": 0.4, "label": "poor", "error": "agreement error ('lång' -> 'långt')", "group": 206}
+{"id": 342, "text": "Honom och jag har känt varandra länge.", "score": 0.45, "label": "poor", "error": "wrong pronoun form ('Han' -> 'Honom')", "group": 159}
+{"id": 343, "text": "Varför du svarar inte när jag ringer?", "score": 0.3, "label": "poor", "error": "question word order (Varför svarar du inte)", "group": 343}
+{"id": 345, "text": "Har du såg min telefon någonstans?", "score": 0.35, "label": "poor", "error": "wrong verb form ('sett' -> 'såg')", "group": 260}
+{"id": 346, "text": "Servern startades om under natten och tjänsten fungerar nu som vanlig.", "score": 0.45, "label": "poor", "error": "adverbial form (som vanligt)", "group": 346}
+{"id": 347, "text": "I morgon vi åker till Kiruna.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('I morgon åker vi' -> 'I morgon vi åker')", "group": 161}
+{"id": 348, "text": "En barn satt på bänken och grät.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('Ett barn' -> 'En barn')", "group": 13}
+{"id": 349, "text": "Trots att vädret var dåligt nästan alla kom till festen, och vi dansade till långt efter midnatt.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('kom nästan alla' -> 'nästan alla kom')", "group": 5}
+{"id": 350, "text": "Värma ugnen till 200 grader. Blanda mjöl, socker och bakpulver i en skål, tillsätta den smälta smöret och rör till en jämn smet.", "score": 0.15, "label": "poor", "error": "infinitive instead of imperative (Värm, tillsätt); gender (det smälta smöret)", "group": 350}
+{"id": 351, "text": "Forskare vid ett svenskt universitet har studerat hur sömnbrist påverkar minnet. Resultaten tyder på att redan en natt med för lite sömn försämrar förmågan att lagra nya intryck.", "score": 0.95, "label": "good", "error": null, "group": 351}
+{"id": 353, "text": "Han lovade att ringa, men han ringde aldrig.", "score": 0.95, "label": "good", "error": null, "group": 353}
+{"id": 354, "text": "När jag var liten var jag livrädd för åskväder, och varje gång det mullrade gömde jag mig under täcket.", "score": 0.95, "label": "good", "error": null, "group": 354}
+{"id": 355, "text": "Hon är äldre än sin bror.", "score": 0.95, "label": "good", "error": null, "group": 355}
+{"id": 356, "text": "Bibliotekets öppettider har ändrats, så kontrollera dem innan du åker dit.", "score": 0.95, "label": "good", "error": null, "group": 356}
+{"id": 357, "text": "Hyresgästerna klagade på att värmen inte fungerade under hela januari.", "score": 0.95, "label": "good", "error": null, "group": 357}
+{"id": 358, "text": "Älgen sprang över vägen precis framför bilen, men som tur var vi hann bromsa i tid.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('hann vi' -> 'vi hann')", "group": 316}
+{"id": 359, "text": "Jag brukar springer tre gånger i veckan.", "score": 0.35, "label": "poor", "error": "wrong verb form ('springa' -> 'springer')", "group": 110}
+{"id": 360, "text": "Jag tycker om att läsa på kvällarna när det är tyst och mysig.", "score": 0.5, "label": "poor", "error": "neuter adjective agreement (mysigt)", "group": 360}
+{"id": 361, "text": "Det tar ungefär tjugo minuter att cykla till jobbet om man tar vägen längs ån.", "score": 0.95, "label": "good", "error": null, "group": 361}
+{"id": 362, "text": "Läkaren sa att jag behöver inte ta någon fler tabletter.", "score": 0.25, "label": "poor", "error": "adverb/negation placement ('jag inte behöver' -> 'jag behöver inte'); agreement error ('några' -> 'någon')", "group": 69}
+{"id": 363, "text": "Hon hade aldrig tidigare sett havet, så när tåget till slut kom fram till kusten hon kunde inte slita blicken från fönstret.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('kunde hon' -> 'hon kunde')", "group": 495}
+{"id": 365, "text": "Middagen är klar om tio minuter.", "score": 0.95, "label": "good", "error": null, "group": 365}
+{"id": 366, "text": "Mjölken är gått ut.", "score": 0.35, "label": "poor", "error": "wrong auxiliary/participle (har gått ut / är utgången)", "group": 366}
+{"id": 367, "text": "Igår jag gick till affär och köpa mjölk.", "score": 0.05, "label": "poor", "error": "verb-second word order violated ('Igår gick jag' -> 'Igår jag gick'); wrong definite/indefinite form ('affären' -> 'affär'); wrong verb form ('köpte' -> 'köpa')", "group": 515}
+{"id": 368, "text": "Min syster jobbar som sjuk sköterska.", "score": 0.45, "label": "poor", "error": "compound written as two words ('sjuksköterska' -> 'sjuk sköterska')", "group": 526}
+{"id": 369, "text": "Hon har fem barn.", "score": 0.95, "label": "good", "error": null, "group": 369}
+{"id": 370, "text": "Sjön frös till tidigt, och många barn åkte skridskor redan i november.", "score": 0.95, "label": "good", "error": null, "group": 370}
+{"id": 371, "text": "Fisket har länge varit en viktig näring längs den norska kusten.", "score": 1.0, "label": "good", "error": null, "group": 371}
+{"id": 372, "text": "Hon var nöjd med resultatet.", "score": 0.95, "label": "good", "error": null, "group": 372}
+{"id": 373, "text": "Vi bodde på en liten hotell nära stranden.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('ett litet hotell' -> 'en liten hotell')", "group": 276}
+{"id": 374, "text": "Vi åt middag på en liten restaurang som låg alldeles vid hamnen.", "score": 1.0, "label": "good", "error": null, "group": 374}
+{"id": 375, "text": "Varje morgon jag dricker två koppar kaffen.", "score": 0.2, "label": "poor", "error": "verb-second word order violated ('dricker jag' -> 'jag dricker'); wrong definite/indefinite form ('kaffe' -> 'kaffen')", "group": 232}
+{"id": 376, "text": "Vi drog hem rätt tidigt, typ vid tio, eftersom alla var trötta.", "score": 0.8, "label": "good", "error": null, "group": 376}
+{"id": 378, "text": "Vi badade i sjön varje morgon.", "score": 0.95, "label": "good", "error": null, "group": 378}
+{"id": 379, "text": "Vi åkte skidor i fjällen hela veckan.", "score": 0.95, "label": "good", "error": null, "group": 379}
+{"id": 380, "text": "Kan du skicka rapporten till mig före lunch? Jag vill hinna läsa igenom den.", "score": 0.95, "label": "good", "error": null, "group": 380}
+{"id": 383, "text": "Vill du ha kaffe eller te till efter rätten?", "score": 0.45, "label": "poor", "error": "compound split (efterrätten)", "group": 383}
+{"id": 384, "text": "Om du hinner inte i dag, vi kan ta det i morgon.", "score": 0.15, "label": "poor", "error": "negation placement and V2 violation", "group": 384}
+{"id": 385, "text": "Det tog en timme att köra hem.", "score": 0.95, "label": "good", "error": null, "group": 385}
+{"id": 386, "text": "Hunden skälla hela natten och grannar började bli irriterade.", "score": 0.25, "label": "poor", "error": "wrong verb form (skällde); missing definite (grannarna)", "group": 386}
+{"id": 387, "text": "Vi bjöd grannarna på kaffe och kanelbullar.", "score": 0.95, "label": "good", "error": null, "group": 387}
+{"id": 388, "text": "Fåglarna flyttar söderut när dagarna blir kortare.", "score": 1.0, "label": "good", "error": null, "group": 388}
+{"id": 389, "text": "Tåget var sen på grund av ett signal fel.", "score": 0.2, "label": "poor", "error": "neuter agreement (sent); compound split (signalfel)", "group": 389}
+{"id": 391, "text": "Vi vill tacka alla som kom på vår bröllopsfest i lördags, och ett särskilt tack till dem som hjälpte till med maten.", "score": 0.95, "label": "good", "error": null, "group": 391}
+{"id": 392, "text": "När vi kom fram till stugan var det redan mörkt ute.", "score": 1.0, "label": "good", "error": null, "group": 392}
+{"id": 394, "text": "Jag förstår inte varför kommer han alltid för sent.", "score": 0.35, "label": "poor", "error": "main-clause word order in indirect question (varför han alltid kommer)", "group": 394}
+{"id": 396, "text": "Jag gillar inte när det regnar hela dagen.", "score": 0.95, "label": "good", "error": null, "group": 396}
+{"id": 397, "text": "När vi kom fram till hotellet visade det sig att rummet inte var städat, så vi fick vänta i receptionen i över en timme.", "score": 0.95, "label": "good", "error": null, "group": 397}
+{"id": 398, "text": "Läkaren rekommenderade mig att ta det lugn och dricka mycket vatten.", "score": 0.45, "label": "poor", "error": "adverb form (ta det lugnt)", "group": 398}
+{"id": 400, "text": "Hej! Jag skriver för att höra om ni fortfarande har lägenheten på Storgatan kvar. Jag är intresserad och kan komma på visning när som helst i veckan.", "score": 0.95, "label": "good", "error": null, "group": 400}
+{"id": 401, "text": "Vi hörde en konstig ljud från källaren.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('ett konstigt' -> 'en konstig')", "group": 404}
+{"id": 402, "text": "Han är en duktig läkare.", "score": 0.95, "label": "good", "error": null, "group": 402}
+{"id": 403, "text": "Det var en fin dag i parken.", "score": 0.95, "label": "good", "error": null, "group": 403}
+{"id": 404, "text": "Vi hörde ett konstigt ljud från källaren.", "score": 0.95, "label": "good", "error": null, "group": 404}
+{"id": 405, "text": "Barnen lekte i trädgården medan vi laga middag.", "score": 0.35, "label": "poor", "error": "wrong verb form (lagade)", "group": 405}
+{"id": 406, "text": "Det är din tur att diska.", "score": 0.95, "label": "good", "error": null, "group": 406}
+{"id": 407, "text": "Vi har vart gifta i tjugo år.", "score": 0.35, "label": "poor", "error": "wrong verb form ('varit' -> 'vart')", "group": 508}
+{"id": 409, "text": "Jag ska träffa min kusiner i helgen.", "score": 0.4, "label": "poor", "error": "agreement error ('mina' -> 'min')", "group": 469}
+{"id": 410, "text": "Hon fick en jobb på ett stort företag.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('ett jobb' -> 'en jobb')", "group": 535}
+{"id": 411, "text": "Jag har bott i Stockholm i snart tio år, men jag har fortfarande inte lärt mig hitta i tunnelbanan.", "score": 0.95, "label": "good", "error": null, "group": 411}
+{"id": 413, "text": "Hon skrev ett långt brev till sin mormor.", "score": 0.95, "label": "good", "error": null, "group": 413}
+{"id": 414, "text": "Efter studenten tog hon ett sabbatsår och reste runt i Sydamerika.", "score": 0.95, "label": "good", "error": null, "group": 414}
+{"id": 415, "text": "Om regnar i morgon vi stannar hemma och spela spel.", "score": 0.05, "label": "poor", "error": "missing subject ('det regnar' -> 'regnar'); verb-second word order violated ('stannar vi' -> 'vi stannar'); wrong verb form ('spelar' -> 'spela')", "group": 538}
+{"id": 416, "text": "Det har varit en ovanligt varm höst, och på flera håll i landet blommar fortfarande rosor trots att det snart är november.", "score": 0.95, "label": "good", "error": null, "group": 416}
+{"id": 417, "text": "Vädret var så dåligt att vi bestämde oss för att stanna hemma.", "score": 0.95, "label": "good", "error": null, "group": 417}
+{"id": 418, "text": "Hon har två stor hundar som heta Bamse och Tussan.", "score": 0.2, "label": "poor", "error": "agreement error ('stora' -> 'stor'); wrong verb form ('heter' -> 'heta')", "group": 22}
+{"id": 420, "text": "Hon vann en guldmedalj i simning.", "score": 0.95, "label": "good", "error": null, "group": 420}
+{"id": 422, "text": "Rummet var kallt och mörkt.", "score": 0.95, "label": "good", "error": null, "group": 422}
+{"id": 423, "text": "Hon köpte en ny vinterjacka.", "score": 0.95, "label": "good", "error": null, "group": 423}
+{"id": 426, "text": "Forskarna har följt tusentals av patienter under tio år för att förstå hur kost och motion påverkar risken för hjärtsjukdom.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('tusentals patienter' -> 'tusentals av patienter')", "group": 48}
+{"id": 427, "text": "Det finns tre katts i huset.", "score": 0.4, "label": "poor", "error": "wrong plural form ('katter' -> 'katts')", "group": 39}
+{"id": 428, "text": "Barnen springde ut på gården.", "score": 0.35, "label": "poor", "error": "wrong verb form ('sprang' -> 'springde')", "group": 582}
+{"id": 430, "text": "Hon behöva vila efter operationen.", "score": 0.35, "label": "poor", "error": "wrong verb form ('behöver' -> 'behöva')", "group": 67}
+{"id": 432, "text": "Jag glömde mina nycklar på jobbet och fick vänta utanför tills min sambo kom hem.", "score": 1.0, "label": "good", "error": null, "group": 432}
+{"id": 433, "text": "Polis letar efter en man som har rånade en bank i centrum.", "score": 0.2, "label": "poor", "error": "wrong definite/indefinite form ('Polisen' -> 'Polis'); wrong verb form ('rånat' -> 'rånade')", "group": 204}
+{"id": 434, "text": "De sålde sitt hus förra året.", "score": 0.95, "label": "good", "error": null, "group": 434}
+{"id": 435, "text": "Jag förstår inte varför han alltid kommer för sent.", "score": 1.0, "label": "good", "error": null, "group": 435}
+{"id": 436, "text": "Om du märker att ditt konto har använts av någon annan bör du omedelbart byta lösenord och kontakta banken.", "score": 0.95, "label": "good", "error": null, "group": 436}
+{"id": 437, "text": "Den svenska sommaren är kort, men den är ofta vacker.", "score": 0.95, "label": "good", "error": null, "group": 437}
+{"id": 439, "text": "Jag vet inte vad heter han.", "score": 0.35, "label": "poor", "error": "word order ('vad han heter' -> 'vad heter han')", "group": 124}
+{"id": 441, "text": "Vi tackade för maten och gick hem.", "score": 0.95, "label": "good", "error": null, "group": 441}
+{"id": 442, "text": "Elpriserna har stigit kraftigt under det senaste året.", "score": 0.95, "label": "good", "error": null, "group": 442}
+{"id": 443, "text": "Under vikingatid fanns det svält och många människor dog inte hade mat.", "score": 0.15, "label": "poor", "error": "missing definite form; clauses joined without conjunction or subject", "group": 443}
+{"id": 444, "text": "Norge fick inte några ny fiskelever som kunde vara framme.", "score": 0.1, "label": "poor", "error": "agreement (nya); 'fiskelever' means fish pupils; unclear meaning", "group": 444}
+{"id": 445, "text": "Det har länge diskuterats om stad behöver en ny bro, men hittills har politikerna inte kunnat enas om var den ska byggas.", "score": 0.4, "label": "poor", "error": "wrong definite/indefinite form ('staden' -> 'stad')", "group": 472}
+{"id": 446, "text": "Det tar ungefär tjugo minuter för att cykla till jobbet.", "score": 0.45, "label": "poor", "error": "superfluous 'för' (det tar ... att cykla)", "group": 446}
+{"id": 447, "text": "I norröna tid fanns det svält i Oslo och många människor dog inte hade fisk tillgång från England, medan man hoppades att det skulle komma hem när fisken återvände den nästa.", "score": 0.05, "label": "poor", "error": "multiple: definiteness, missing conjunction and subject, word order, unclear reference", "group": 447}
+{"id": 448, "text": "Vi åkade skidor i fjällen hela veckan.", "score": 0.35, "label": "poor", "error": "wrong verb form ('åkte' -> 'åkade')", "group": 379}
+{"id": 449, "text": "Det är synd att du inte kan komma.", "score": 0.95, "label": "good", "error": null, "group": 449}
+{"id": 450, "text": "Kommunen bygger nya skolor i området.", "score": 0.95, "label": "good", "error": null, "group": 450}
+{"id": 451, "text": "Mina föräldrar har köpt en sommarstuga i Dalarna.", "score": 0.95, "label": "good", "error": null, "group": 451}
+{"id": 452, "text": "Han sa att han inte hade sett filmen.", "score": 0.95, "label": "good", "error": null, "group": 452}
+{"id": 453, "text": "Kaffet var för starkt, så jag hällde i lite mjölk.", "score": 0.95, "label": "good", "error": null, "group": 453}
+{"id": 454, "text": "Hej! Jag undrar om ni har några lediga platser på kursen i keramik som startar i oktober, eftersom jag hann inte anmäla mig i tid.", "score": 0.4, "label": "poor", "error": "adverb/negation placement ('inte hann' -> 'hann inte')", "group": 247}
+{"id": 455, "text": "Rummet var kall och mörkt.", "score": 0.4, "label": "poor", "error": "agreement error ('kallt' -> 'kall')", "group": 422}
+{"id": 456, "text": "Hon var nöjt med resultatet.", "score": 0.4, "label": "poor", "error": "agreement error ('nöjd' -> 'nöjt')", "group": 372}
+{"id": 457, "text": "Skogsbränderna har tvingat hundratals av människor att lämna deras hem.", "score": 0.2, "label": "poor", "error": "superfluous 'av'; reflexive possessive (sina hem)", "group": 457}
+{"id": 458, "text": "Hon har aldrig varit utomlands.", "score": 0.95, "label": "good", "error": null, "group": 458}
+{"id": 459, "text": "Vi tackade om maten och gick hem.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('för' -> 'om')", "group": 441}
+{"id": 460, "text": "Han bor i ett gammalt hus på landet.", "score": 0.95, "label": "good", "error": null, "group": 460}
+{"id": 462, "text": "Jag behöver ett nytt dator till jobbet.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('en ny' -> 'ett nytt')", "group": 577}
+{"id": 463, "text": "Under vikingatiden var Norge beroende av handel med omvärlden för att klara de långa vintrarna.", "score": 0.95, "label": "good", "error": null, "group": 463}
+{"id": 465, "text": "Jag har läst hela serien två gånger, och jag tycker att den sista boken är den bästa.", "score": 0.95, "label": "good", "error": null, "group": 465}
+{"id": 466, "text": "Det nya systemet gör det möjligt att boka tid hos läkaren via appen, vilket många patienten har efterfrågat länge.", "score": 0.4, "label": "poor", "error": "wrong plural form ('patienter' -> 'patienten')", "group": 107}
+{"id": 467, "text": "Regnar mycket i Göteborg på hösten.", "score": 0.35, "label": "poor", "error": "missing formal subject (Det regnar)", "group": 467}
+{"id": 468, "text": "Han köpte en tidning på stationen.", "score": 0.95, "label": "good", "error": null, "group": 468}
+{"id": 469, "text": "Jag ska träffa mina kusiner i helgen.", "score": 0.95, "label": "good", "error": null, "group": 469}
+{"id": 470, "text": "Middagen vara klar om tio minuter.", "score": 0.35, "label": "poor", "error": "wrong verb form ('är' -> 'vara')", "group": 365}
+{"id": 472, "text": "Det har länge diskuterats om staden behöver en ny bro, men hittills har politikerna inte kunnat enas om var den ska byggas.", "score": 0.95, "label": "good", "error": null, "group": 472}
+{"id": 473, "text": "Den gamla bron över älven renoverades förra sommaren och är nu öppen för trafik igen.", "score": 1.0, "label": "good", "error": null, "group": 473}
+{"id": 475, "text": "Jag visste inte att ni kände varandra sedan tidigare.", "score": 0.95, "label": "good", "error": null, "group": 475}
+{"id": 476, "text": "Vi tog nattåget till Narvik.", "score": 0.95, "label": "good", "error": null, "group": 476}
+{"id": 477, "text": "Han blev kär i sin bästa vän.", "score": 0.95, "label": "good", "error": null, "group": 477}
+{"id": 478, "text": "Hunden bitade brevbäraren i benet.", "score": 0.35, "label": "poor", "error": "wrong verb form ('bet' -> 'bitade')", "group": 187}
+{"id": 479, "text": "Jag köpte en äpple och en banan.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('ett äpple' -> 'en äpple')", "group": 320}
+{"id": 481, "text": "Uppsatsen ska vara inlämnad senast fredag klockan tolv.", "score": 0.95, "label": "good", "error": null, "group": 481}
+{"id": 482, "text": "Regeringen meddelade i går att den inte tänker höja bensinskatten under nästa år, trots kritik från flera miljöorganisationer.", "score": 0.95, "label": "good", "error": null, "group": 482}
+{"id": 483, "text": "Huset är målat i en ljusgul färg.", "score": 0.95, "label": "good", "error": null, "group": 483}
+{"id": 484, "text": "Vi vill tacka alla som kom på vår bröllops fest i lördags, och ett särskilt tack till dem som hjälpte till med maten.", "score": 0.45, "label": "poor", "error": "compound written as two words ('bröllopsfest' -> 'bröllops fest')", "group": 391}
+{"id": 485, "text": "Programmet läser in data från en fil, rensar bort tomma rader och sparar resultatet i en ny tabell.", "score": 0.95, "label": "good", "error": null, "group": 485}
+{"id": 486, "text": "Vi var tvungen att ställa in resan eftersom flyget blev inställt i sista stund.", "score": 0.4, "label": "poor", "error": "agreement error ('tvungna' -> 'tvungen')", "group": 496}
+{"id": 490, "text": "Dem kom hem sent i går kväll.", "score": 0.45, "label": "poor", "error": "wrong pronoun form ('De' -> 'Dem')", "group": 539}
+{"id": 491, "text": "Konserten ställdes in med kort varsel på grund av sjukdom.", "score": 0.95, "label": "good", "error": null, "group": 491}
+{"id": 492, "text": "Det spelar ingen roll hur många gånger jag förklarar det, han lyssnar ändå inte.", "score": 0.9, "label": "good", "error": null, "group": 492}
+{"id": 493, "text": "Det snöar ute nu.", "score": 0.95, "label": "good", "error": null, "group": 493}
+{"id": 494, "text": "Boken läste av miljontals människor.", "score": 0.35, "label": "poor", "error": "wrong verb form ('lästes' -> 'läste')", "group": 208}
+{"id": 495, "text": "Hon hade aldrig tidigare sett havet, så när tåget till slut kom fram till kusten kunde hon inte slita blicken från fönstret.", "score": 0.95, "label": "good", "error": null, "group": 495}
+{"id": 496, "text": "Vi var tvungna att ställa in resan eftersom flyget blev inställt i sista stund.", "score": 0.95, "label": "good", "error": null, "group": 496}
+{"id": 498, "text": "Den nya chef vara mycket trevligt och lätt att prata med.", "score": 0.05, "label": "poor", "error": "wrong definite/indefinite form ('chefen' -> 'chef'); wrong verb form ('är' -> 'vara'); agreement error ('trevlig' -> 'trevligt')", "group": 227}
+{"id": 500, "text": "Hans senaste roman utspelar sig på ett fiskeläge i västkusten under 1950-talet.", "score": 0.4, "label": "poor", "error": "prepositions (i ett fiskeläge på Västkusten)", "group": 500}
+{"id": 503, "text": "Jag skrev till hyresvärden att värmen inte fungerar i sovrummet, men jag har fortfarande inte fått något svar.", "score": 0.95, "label": "good", "error": null, "group": 503}
+{"id": 504, "text": "Han köpa en tidning på stationen.", "score": 0.35, "label": "poor", "error": "wrong verb form ('köpte' -> 'köpa')", "group": 468}
+{"id": 506, "text": "Hon tog med henne paraplyet.", "score": 0.45, "label": "poor", "error": "wrong pronoun form ('sig' -> 'henne')", "group": 68}
+{"id": 507, "text": "Huset är målad i en ljusgul färg.", "score": 0.4, "label": "poor", "error": "agreement error ('målat' -> 'målad')", "group": 483}
+{"id": 508, "text": "Vi har varit gifta i tjugo år.", "score": 0.95, "label": "good", "error": null, "group": 508}
+{"id": 509, "text": "Vi såg en fantastisk film i går.", "score": 0.95, "label": "good", "error": null, "group": 509}
+{"id": 510, "text": "Ärligt talat vet jag inte riktigt vad jag vill plugga, men jag tänker att det löser sig om jag bara börjar någonstans.", "score": 0.85, "label": "good", "error": null, "group": 510}
+{"id": 511, "text": "Programmet läser in en fil rad för rad, delar upp varje rad i ord och räknar hur många gånger varje ord förekommer.", "score": 0.95, "label": "good", "error": null, "group": 511}
+{"id": 512, "text": "Min bror är intresserad av fotboll.", "score": 0.95, "label": "good", "error": null, "group": 512}
+{"id": 513, "text": "Tåget var försenat på grund av ett signalfel vid Södertälje.", "score": 0.95, "label": "good", "error": null, "group": 513}
+{"id": 514, "text": "Hur länge har ni känt varandras?", "score": 0.4, "label": "poor", "error": "wrong form (varandra)", "group": 514}
+{"id": 515, "text": "Igår gick jag till affären och köpte mjölk.", "score": 0.95, "label": "good", "error": null, "group": 515}
+{"id": 518, "text": "Vi köpt en ny soffa i helgen.", "score": 0.35, "label": "poor", "error": "wrong verb form ('köpte' -> 'köpt')", "group": 317}
+{"id": 520, "text": "Min dator är så gammal att det knappt klarar av att starta.", "score": 0.45, "label": "poor", "error": "pronoun gender for en-word (den)", "group": 520}
+{"id": 521, "text": "Vi pratade på framtiden hela kvällen.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('om' -> 'på')", "group": 327}
+{"id": 522, "text": "Mellan 1850 och 1930 emigrerade över en miljon svenskar till Nordamerika, de flesta på grund av fattigdom.", "score": 0.95, "label": "good", "error": null, "group": 522}
+{"id": 523, "text": "Matchen avgjordes först på straffar, och hemmalaget kunde till slut fira sin första titel på över trettio år.", "score": 0.95, "label": "good", "error": null, "group": 523}
+{"id": 525, "text": "Ett stort träd föll över vägen under stormen i natt.", "score": 0.95, "label": "good", "error": null, "group": 525}
+{"id": 526, "text": "Min syster jobbar som sjuksköterska.", "score": 0.95, "label": "good", "error": null, "group": 526}
+{"id": 527, "text": "Programmet läser en fil rad efter rad, och delar varje rad till ord och räknar hur många gånger varenda ord förekommer sig.", "score": 0.2, "label": "poor", "error": "missing particles (läser in, delar upp i); wrong reflexive (förekommer)", "group": 527}
+{"id": 528, "text": "Det här är den vackraste platsen jag vet.", "score": 0.95, "label": "good", "error": null, "group": 528}
+{"id": 529, "text": "Om du vill ansöka om studiemedel måste du göra det senast en månad innan terminen börjar.", "score": 0.95, "label": "good", "error": null, "group": 529}
+{"id": 530, "text": "Sjön frös till tidigt i år, så skridskoåkarna var ute redan i november.", "score": 0.95, "label": "good", "error": null, "group": 530}
+{"id": 531, "text": "Hon har två katt.", "score": 0.35, "label": "poor", "error": "missing plural (katter)", "group": 531}
+{"id": 532, "text": "Mellan 1850 och 1930 emigrerade över en miljon svenskar till Nordamerika, dem flesta på grund av fattigdom.", "score": 0.45, "label": "poor", "error": "wrong pronoun form ('de' -> 'dem')", "group": 522}
+{"id": 534, "text": "Det är viktigt att man tvättar händerna innan man lagar mat, särskilt när man hanterar rått kyckling.", "score": 0.4, "label": "poor", "error": "agreement error ('rå' -> 'rått')", "group": 181}
+{"id": 535, "text": "Hon fick ett jobb på ett stort företag.", "score": 0.95, "label": "good", "error": null, "group": 535}
+{"id": 536, "text": "Han köpte två boker på bokrean.", "score": 0.4, "label": "poor", "error": "wrong plural form ('böcker' -> 'boker')", "group": 174}
+{"id": 537, "text": "Mormor brukade bakar kanelbullar varje lördag.", "score": 0.35, "label": "poor", "error": "brukade takes infinitive (baka)", "group": 537}
+{"id": 538, "text": "Om det regnar i morgon stannar vi hemma och spelar spel.", "score": 0.95, "label": "good", "error": null, "group": 538}
+{"id": 539, "text": "De kom hem sent i går kväll.", "score": 0.95, "label": "good", "error": null, "group": 539}
+{"id": 541, "text": "När jag öppnade dörren jag såg att någon hade lämnat ett paket på trappan.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('såg jag' -> 'jag såg')", "group": 150}
+{"id": 543, "text": "Det har varit en lång vinter.", "score": 0.95, "label": "good", "error": null, "group": 543}
+{"id": 544, "text": "Vi ätte pannkakor till lunch.", "score": 0.35, "label": "poor", "error": "wrong verb form ('åt' -> 'ätte')", "group": 264}
+{"id": 545, "text": "Forskare vid ett svenskt universitet har studerat hur sömnbrist påverkar minnet. Resultaten tyder på att redan en natt med för lite sömn försämrar förmågan för att lagra nya intryck.", "score": 0.55, "label": "poor", "error": "superfluous 'för' (förmågan att)", "group": 545}
+{"id": 546, "text": "Eftersom tåget var försenad jag missade mötet, och min chef var inte särskilt glad.", "score": 0.2, "label": "poor", "error": "agreement error ('försenat' -> 'försenad'); verb-second word order violated ('missade jag' -> 'jag missade')", "group": 199}
+{"id": 547, "text": "Alla platser är bokad.", "score": 0.4, "label": "poor", "error": "agreement error ('bokade' -> 'bokad')", "group": 85}
+{"id": 548, "text": "Vi tog natt tåget till Narvik.", "score": 0.45, "label": "poor", "error": "compound written as two words ('nattåget' -> 'natt tåget')", "group": 476}
+{"id": 550, "text": "Efter en lång diskussion styrelsen enades om en ny budget.", "score": 0.35, "label": "poor", "error": "V2 violation (enades styrelsen)", "group": 550}
+{"id": 551, "text": "Det var första gången hon har sett norrsken.", "score": 0.5, "label": "poor", "error": "tense sequence (såg / hade sett)", "group": 551}
+{"id": 552, "text": "Hur mycket kostar det biljetten?", "score": 0.3, "label": "poor", "error": "superfluous 'det' (Hur mycket kostar biljetten)", "group": 552}
+{"id": 553, "text": "Fisken den återvände nästa man hoppades komma hem det skulle.", "score": 0.0, "label": "poor", "error": "word salad, no recoverable structure", "group": 553}
+{"id": 554, "text": "Vi träffades på en fest hos en kompis.", "score": 0.95, "label": "good", "error": null, "group": 554}
+{"id": 555, "text": "Sjö frös till tidigt, och många barnen åkte skridskor redan i november.", "score": 0.25, "label": "poor", "error": "wrong definite/indefinite form ('Sjön' -> 'Sjö'); wrong definite/indefinite form ('barn' -> 'barnen')", "group": 370}
+{"id": 556, "text": "Vi bor i en stor lägenhet mitt i stan.", "score": 0.95, "label": "good", "error": null, "group": 556}
+{"id": 557, "text": "Alla studenter måste anmäla sig före fredag.", "score": 0.95, "label": "good", "error": null, "group": 557}
+{"id": 558, "text": "Han försökte öppna dörren, men den var låst.", "score": 0.95, "label": "good", "error": null, "group": 558}
+{"id": 559, "text": "Under natten föll det nästan en halv meter snö, och på morgonen var vägarna helt oframkomliga.", "score": 0.95, "label": "good", "error": null, "group": 559}
+{"id": 560, "text": "Under medeltiden exporterades torkad fisk från Bergen till stora delar av Europa.", "score": 0.95, "label": "good", "error": null, "group": 560}
+{"id": 561, "text": "Kommunen har beslutat att bygga en ny förskola i stadsdelen.", "score": 0.95, "label": "good", "error": null, "group": 561}
+{"id": 562, "text": "Det är ditt tur att diska.", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('din' -> 'ditt')", "group": 406}
+{"id": 563, "text": "Värm mjölken försiktigt i en kastrull, tillsätta sockret och rör tills allt har löst sig.", "score": 0.35, "label": "poor", "error": "wrong verb form ('tillsätt' -> 'tillsätta')", "group": 567}
+{"id": 564, "text": "Hela familj samlades till jul.", "score": 0.4, "label": "poor", "error": "wrong definite/indefinite form ('familjen' -> 'familj')", "group": 310}
+{"id": 565, "text": "Min farfar berättade ofta om sin barndom när vi var små.", "score": 0.95, "label": "good", "error": null, "group": 565}
+{"id": 566, "text": "Efter en lång och kall vinter är det skönt att äntligen kunna sitta ute i solen och dricka kaffe på balkong.", "score": 0.4, "label": "poor", "error": "wrong definite/indefinite form ('balkongen' -> 'balkong')", "group": 70}
+{"id": 567, "text": "Värm mjölken försiktigt i en kastrull, tillsätt sockret och rör tills allt har löst sig.", "score": 0.95, "label": "good", "error": null, "group": 567}
+{"id": 568, "text": "Jag såg de på stationen i morse.", "score": 0.45, "label": "poor", "error": "de/dem confusion: object form is dem", "group": 568}
+{"id": 570, "text": "Jag hinner inte i dag.", "score": 1.0, "label": "good", "error": null, "group": 570}
+{"id": 571, "text": "Jag är rädd för spindlar.", "score": 0.95, "label": "good", "error": null, "group": 571}
+{"id": 572, "text": "Vem har ätit upp den sista kaka?", "score": 0.4, "label": "poor", "error": "missing definite suffix after 'den sista' (kakan)", "group": 572}
+{"id": 573, "text": "Han sa att han alltid läser tidningen på morgonen.", "score": 0.95, "label": "good", "error": null, "group": 573}
+{"id": 575, "text": "Han gjorde en bra jobb med presentationen och alla var nöjd.", "score": 0.25, "label": "poor", "error": "gender (ett bra jobb); plural agreement (nöjda)", "group": 575}
+{"id": 576, "text": "Butiken har stängd för dagen.", "score": 0.35, "label": "poor", "error": "wrong verb form ('stängt' -> 'stängd')", "group": 162}
+{"id": 577, "text": "Jag behöver en ny dator till jobbet.", "score": 0.95, "label": "good", "error": null, "group": 577}
+{"id": 579, "text": "Hon skrivde ett långt brev till sin mormor.", "score": 0.35, "label": "poor", "error": "wrong verb form ('skrev' -> 'skrivde')", "group": 413}
+{"id": 580, "text": "Matchen var jämn ända in i slutminuterna, då hemmalaget till slut lyckades göra det avgörande målet efter en snabb kontring.", "score": 0.95, "label": "good", "error": null, "group": 580}
+{"id": 581, "text": "Kan jag få en glas vatten?", "score": 0.4, "label": "poor", "error": "wrong grammatical gender ('ett glas' -> 'en glas')", "group": 26}
+{"id": 582, "text": "Barnen sprang ut på gården.", "score": 0.95, "label": "good", "error": null, "group": 582}
+{"id": 583, "text": "Han lovad att ringa, men han aldrig ringde.", "score": 0.2, "label": "poor", "error": "wrong verb form ('lovade' -> 'lovad'); adverb/negation placement ('han ringde aldrig' -> 'han aldrig ringde')", "group": 353}
+{"id": 584, "text": "Stek fisken i två minuter på varje sida, salta och peppra, och servera den med kokt potatis och en klick smör.", "score": 0.95, "label": "good", "error": null, "group": 584}
+{"id": 585, "text": "Bibliotekets öppettider har ändrat, så kontrollera de innan du åker dit.", "score": 0.25, "label": "poor", "error": "passive needed (ändrats); object form (dem)", "group": 585}
+{"id": 586, "text": "Jag förstår inte varför hon alltid kommer för sent till jobbet.", "score": 0.95, "label": "good", "error": null, "group": 586}
+{"id": 587, "text": "Han sa att han hade inte såg filmen.", "score": 0.2, "label": "poor", "error": "adverb/negation placement ('inte hade' -> 'hade inte'); wrong verb form ('sett' -> 'såg')", "group": 452}
+{"id": 588, "text": "Nästa vecka skolan börjar igen.", "score": 0.35, "label": "poor", "error": "verb-second word order violated ('Nästa vecka börjar skolan' -> 'Nästa vecka skolan börjar')", "group": 319}
+{"id": 591, "text": "Om du vill ansöka studiemedel måste du göra det senast en månad innan terminen börjar.", "score": 0.45, "label": "poor", "error": "wrong or missing preposition ('ansöka om' -> 'ansöka')", "group": 529}
+{"id": 592, "text": "Igår hon sov dåligt.", "score": 0.35, "label": "poor", "error": "V2 violation (Igår sov hon)", "group": 592}
+{"id": 593, "text": "Den sista bussen går kvart över tolv.", "score": 0.95, "label": "good", "error": null, "group": 593}
+{"id": 594, "text": "Han har två brodrar.", "score": 0.4, "label": "poor", "error": "wrong plural form ('bröder' -> 'brodrar')", "group": 252}
+{"id": 596, "text": "Han är bra på matematik.", "score": 0.95, "label": "good", "error": null, "group": 596}
+{"id": 597, "text": "Han tvättade hans bil i går.", "score": 0.45, "label": "poor", "error": "wrong pronoun form ('sin' -> 'hans')", "group": 296}
+{"id": 598, "text": "Brevet var skriven för hand.", "score": 0.4, "label": "poor", "error": "agreement error ('skrivet' -> 'skriven')", "group": 229}
