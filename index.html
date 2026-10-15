@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swedish Grammaticality Scoring</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Public+Sans:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F3F5F8;
+    --surface: #E6EBF0;
+    --ink: #17212C;
+    --muted: #5B6875;
+    --rule: #CDD5DD;
+    --pen: #C2262E;
+    --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+    --sans: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+    --hand: "Caveat", "Comic Sans MS", cursive;
+    --mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #11161C;
+      --surface: #1B232C;
+      --ink: #E2E8EE;
+      --muted: #98A4B0;
+      --rule: #2C3640;
+      --pen: #FF6F69;
+      color-scheme: dark;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: 1.5rem; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 400 1.125rem/1.7 var(--serif);
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; text-decoration-color: var(--muted); text-underline-offset: 0.18em; }
+  a:hover { text-decoration-color: var(--ink); }
+  :focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; border-radius: 2px; }
+
+  .page {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 62rem;
+    margin: 0 auto;
+    padding: 0 1.25rem 6rem;
+  }
+  @media (min-width: 60rem) {
+    .page { grid-template-columns: 11rem minmax(0, 40rem); column-gap: 4rem; justify-content: center; }
+    .hero, #content { grid-column: 2; }
+    .toc { grid-column: 1; grid-row: 2; }
+  }
+
+  /* Hero: the task, shown as a corrected sentence */
+  .hero { padding: clamp(3rem, 9vw, 6.5rem) 0 2.5rem; }
+  .example { margin: 0 0 2.25rem; }
+  .sentence {
+    margin: 0;
+    font-size: clamp(1.55rem, 4.2vw, 2.4rem);
+    line-height: 1.55;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  .insert { position: relative; display: inline-block; width: 0; }
+  .insert svg {
+    position: absolute; left: -0.17em; bottom: -0.2em;
+    width: 0.38em; height: 0.34em; overflow: visible;
+  }
+  .insert path {
+    fill: none; stroke: var(--pen); stroke-width: 2.2;
+    stroke-linecap: round; stroke-linejoin: round;
+    stroke-dasharray: 30; stroke-dashoffset: 0;
+  }
+  .insert .letter {
+    position: absolute; left: -0.14em; top: -1.4em;
+    font: 600 0.9em/1 var(--hand); color: var(--pen);
+    transform: rotate(-8deg);
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .insert path { stroke-dashoffset: 30; animation: draw 0.45s ease-out 0.5s forwards; }
+    .insert .letter { opacity: 0; animation: write 0.35s ease-out 0.9s forwards; }
+    .marker { animation: slide 0.6s ease-out 0.3s backwards; }
+  }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes write { from { opacity: 0; transform: rotate(-8deg) translateY(0.15em); } to { opacity: 1; transform: rotate(-8deg); } }
+  @keyframes slide { from { left: 0; } }
+
+  .score {
+    display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center;
+    column-gap: 1rem; margin-top: 0.6rem;
+    font: 600 0.95rem/1 var(--sans); font-variant-numeric: tabular-nums;
+  }
+  .scale { position: relative; height: 1rem; border-inline: 1px solid var(--rule); }
+  .scale::before { content: ""; position: absolute; inset: 50% 0 auto; border-top: 1px solid var(--rule); }
+  .marker {
+    position: absolute; top: 0; bottom: 0; left: calc(var(--s) * 100%);
+    width: 3px; margin-left: -1.5px; border-radius: 2px; background: var(--ink);
+  }
+  .low .marker { background: var(--pen); }
+  .low .value { color: var(--pen); }
+
+  .hero h1 {
+    margin: 3rem 0 0.75rem;
+    font: 700 clamp(1.35rem, 2.6vw, 1.7rem)/1.25 var(--sans);
+    letter-spacing: -0.01em;
+  }
+  .lede { margin: 0; max-width: 36rem; color: var(--muted); }
+
+  /* Section list */
+  .toc { font: 400 0.95rem/1.5 var(--sans); margin-bottom: 1rem; }
+  .toc ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.35rem 1.25rem; }
+  .toc a { color: var(--muted); text-decoration: none; }
+  .toc a:hover { color: var(--ink); text-decoration: underline; }
+  @media (min-width: 60rem) {
+    .toc ul { position: sticky; top: 2rem; display: block; padding-top: 0.4rem; border-left: 1px solid var(--rule); }
+    .toc li a { display: block; padding: 0.3rem 0 0.3rem 1rem; }
+    .toc { margin: 0; }
+  }
+
+  /* Rendered README */
+  #content h2 {
+    margin: 3.25rem 0 1rem; padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    font: 700 1.3rem/1.3 var(--sans); letter-spacing: -0.005em;
+  }
+  #content h3 { margin: 2.25rem 0 0.75rem; font: 600 1.1rem/1.35 var(--sans); }
+  #content p, #content li { max-width: 40rem; }
+  #content ul, #content ol { padding-left: 1.3rem; }
+  #content li { margin: 0.35rem 0; }
+  #content li > ol, #content li > ul { margin-top: 0.4rem; }
+  #content strong { font-weight: 600; }
+  #content code { font: 0.85em var(--mono); background: var(--surface); padding: 0.12em 0.35em; border-radius: 3px; }
+  #content pre {
+    margin: 1.25rem 0; padding: 1rem 1.15rem; overflow-x: auto;
+    background: var(--surface); border-radius: 4px; line-height: 1.5;
+  }
+  #content pre code { background: none; padding: 0; font-size: 0.85rem; }
+  .table-wrap { overflow-x: auto; margin: 1.25rem 0; }
+  #content table { border-collapse: collapse; width: 100%; font: 400 0.92rem/1.5 var(--sans); }
+  #content th, #content td { text-align: left; vertical-align: top; padding: 0.6rem 0.9rem 0.6rem 0; border-bottom: 1px solid var(--rule); }
+  #content th { font-weight: 600; border-bottom-color: var(--ink); white-space: nowrap; }
+  #content td { font-variant-numeric: tabular-nums; }
+  .status { color: var(--muted); font-family: var(--sans); }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <figure class="example low">
+      <p class="sentence" aria-label="Den gamla bro över älven renoverades förra sommaren. The word bron is missing its final n.">
+        <span aria-hidden="true">Den gamla bro<span class="insert"><svg viewBox="0 0 10 9"><path d="M1 8 L5 1 L9 8"/></svg><span class="letter">n</span></span> över älven renoverades förra sommaren.</span>
+      </p>
+      <div class="score"><div class="scale" role="img" aria-label="Expected score 0.40 on a scale from 0 to 1"><span class="marker" style="--s: 0.40"></span></div><span class="value">0.40</span></div>
+    </figure>
+    <figure class="example">
+      <p class="sentence">Den gamla bron över älven renoverades förra sommaren.</p>
+      <div class="score"><div class="scale" role="img" aria-label="Expected score 0.95 on a scale from 0 to 1"><span class="marker" style="--s: 0.95"></span></div><span class="value">0.95</span></div>
+    </figure>
+    <h1 id="title">Swedish Grammaticality Scoring</h1>
+    <p class="lede">Build a model that reads Swedish text and returns a score from 0 to 1. Text with grammatical errors, like the missing n above, should score lower.</p>
+  </header>
+
+  <nav class="toc" aria-label="Sections"><ul id="toc-list"></ul></nav>
+
+  <main id="content"><p class="status">Loading the assignment…</p></main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script>
+  const content = document.getElementById("content");
+  const slug = (text) => text.toLowerCase().trim().replace(/[^\p{L}\p{N}]+/gu, "-").replace(/^-|-$/g, "");
+
+  fetch("README.md")
+    .then((res) => { if (!res.ok) throw new Error(res.status); return res.text(); })
+    .then((md) => {
+      content.innerHTML = marked.parse(md);
+
+      const h1 = content.querySelector("h1");  // the README title moves into the hero
+      if (h1) {
+        document.getElementById("title").textContent = h1.textContent;
+        document.title = h1.textContent;
+        h1.remove();
+      }
+
+      content.querySelectorAll("table").forEach((table) => {  // wide tables scroll on their own
+        const wrap = document.createElement("div");
+        wrap.className = "table-wrap";
+        table.replaceWith(wrap);
+        wrap.append(table);
+      });
+
+      const toc = document.getElementById("toc-list");
+      content.querySelectorAll("h2").forEach((h) => {
+        h.id = slug(h.textContent);
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = "#" + h.id;
+        a.textContent = h.textContent;
+        li.append(a);
+        toc.append(li);
+      });
+
+      if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
+    })
+    .catch(() => {
+      content.innerHTML = '<p class="status">README.md could not be loaded. This page reads it over HTTP, so open it on GitHub Pages, or run <code>python -m http.server</code> in the repository folder and visit http://localhost:8000.</p>';
+    });
+</script>
+</body>
+</html>
